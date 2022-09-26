@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     outline: none;
+    transition: 0.8s all;
 }
 
 body {
@@ -18,6 +19,7 @@ body {
 
 .app {
     background: #fff;
+    /* position: relative; */
     padding: 20px;
     width: 600px;
     margin: 0 auto;
@@ -135,4 +137,38 @@ body {
 .btn:hover {
     box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.2);
     transform: translateY(-1px);
+}
+@keyframes example {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0.3;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    75% {
+        opacity: 0.7;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes hid {
+    0% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 0.7;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    75% {
+        opacity: 0.3;
+    }
+    100% {
+        opacity: 0;
+    }
 }
