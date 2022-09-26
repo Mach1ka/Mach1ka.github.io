@@ -46,7 +46,7 @@ function startGame() {
 }
 
 function setGameScore() {
-    $result.textContent = score.toString();
+    $result.textContent = score.toString() + " лох :)";
 }
 
 function setGameTime() {
